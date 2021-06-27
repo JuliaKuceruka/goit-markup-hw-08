@@ -1,9 +1,11 @@
 .modal-form-head {
-  font-size: 20px;
   font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
   text-align: center;
   margin-bottom: 12px;
   letter-spacing: 0.03em;
+  width: 370px;
 }
 
 .modal-form {
@@ -100,14 +102,14 @@
 }
 
 .modal-form-checkbox-policy {
-  display: flex;
+  // display: flex;
   align-items: center;
   position: relative;
   cursor: pointer;
-  text-align: center;
+  // text-align: center;
   margin-left: 12px;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
@@ -132,4 +134,16 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form-head {
+    line-height: 1.15;
+    width: 100%;
+  }
+
+  .modal-form-checkbox-policy {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
