@@ -11,7 +11,12 @@
 
 .social-media {
   display: flex;
-  justify-content: space-between;
+  text-align: center;
+  justify-content: center;
+}
+
+.social-list:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-list-link {

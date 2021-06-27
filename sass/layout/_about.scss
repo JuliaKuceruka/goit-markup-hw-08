@@ -30,3 +30,19 @@
   color: var(--secondary-text-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
+
+@media screen and (max-width: 767px) {
+  .about-us {
+    &__container {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    &__container {
+      display: none;
+    }
+  }
+}
