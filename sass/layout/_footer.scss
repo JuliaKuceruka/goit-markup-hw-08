@@ -113,7 +113,8 @@
   &__button {
     display: inline-flex;
     align-items: center;
-    min-width: 200px;
+    width: 200px;
+    height: 50px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -130,8 +131,8 @@
   &__input {
     width: 100%;
     padding: 15px;
+    // margin-right: 15px;
     margin-bottom: 20px;
-    // margin-right: 12px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background-color: var(--footer-bacground-color);
@@ -207,5 +208,12 @@
 
   .mailing-form {
     display: flex;
+    // width: 358px;
+    margin-right: 15px;
+
+    &__field {
+      width: 358px;
+      margin-right: 12px;
+    }
   }
 }
