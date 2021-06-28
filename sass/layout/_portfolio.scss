@@ -94,6 +94,9 @@
 
   &__item {
     margin-top: 30px;
+    border-left: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
 
     &:hover,
     &:focus {
@@ -109,7 +112,7 @@
 
 .project-list-content {
   padding: 20px 24px;
-  border: 1px solid var(--border-color);
+  // border: 1px solid var(--border-color);
   border-top: none;
 }
 
@@ -145,6 +148,7 @@
 
     &__item {
       flex-basis: calc((100% - 60px) / 2);
+      margin-left: 30px;
     }
   }
 }
